@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		E81515AF1ECB6F4400C815FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81515AE1ECB6F4400C815FC /* AppDelegate.swift */; };
-		E81515B11ECB6F4400C815FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81515B01ECB6F4400C815FC /* ViewController.swift */; };
 		E81515B41ECB6F4400C815FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81515B21ECB6F4400C815FC /* Main.storyboard */; };
 		E81515B61ECB6F4400C815FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E81515B51ECB6F4400C815FC /* Assets.xcassets */; };
 		E81515B91ECB6F4400C815FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E81515B71ECB6F4400C815FC /* LaunchScreen.storyboard */; };
+		E81515C11ECB72A700C815FC /* FormularioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81515C01ECB72A700C815FC /* FormularioTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E81515AB1ECB6F4400C815FC /* StaticTableVIew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticTableVIew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E81515AE1ECB6F4400C815FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E81515B01ECB6F4400C815FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E81515B31ECB6F4400C815FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E81515B51ECB6F4400C815FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E81515B81ECB6F4400C815FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E81515BA1ECB6F4400C815FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E81515C01ECB72A700C815FC /* FormularioTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormularioTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				E81515AE1ECB6F4400C815FC /* AppDelegate.swift */,
-				E81515B01ECB6F4400C815FC /* ViewController.swift */,
 				E81515B21ECB6F4400C815FC /* Main.storyboard */,
 				E81515B51ECB6F4400C815FC /* Assets.xcassets */,
 				E81515B71ECB6F4400C815FC /* LaunchScreen.storyboard */,
 				E81515BA1ECB6F4400C815FC /* Info.plist */,
+				E81515C01ECB72A700C815FC /* FormularioTableViewController.swift */,
 			);
 			path = StaticTableVIew;
 			sourceTree = "<group>";
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E81515B11ECB6F4400C815FC /* ViewController.swift in Sources */,
 				E81515AF1ECB6F4400C815FC /* AppDelegate.swift in Sources */,
+				E81515C11ECB72A700C815FC /* FormularioTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
